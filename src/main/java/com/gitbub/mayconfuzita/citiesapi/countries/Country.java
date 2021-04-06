@@ -27,7 +27,13 @@ public class Country {
 
     }
 
-    
+    public Country(Long id, String name, String portugeseName, String code, Integer bacen) {
+        this.id = id;
+        this.name = name;
+        this.portugeseName = portugeseName;
+        this.code = code;
+        this.bacen = bacen;
+    }
 }
 
 
