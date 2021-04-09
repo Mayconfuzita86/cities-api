@@ -14,10 +14,12 @@ public enum EarthRadius {
   }
 
   public float getValue() {
+
     return value;
   }
 
   public String getUnit() {
+
     return unit;
   }
 }

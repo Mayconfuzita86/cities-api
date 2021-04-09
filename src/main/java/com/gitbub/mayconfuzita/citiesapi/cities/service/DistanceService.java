@@ -1,6 +1,5 @@
 package com.gitbub.mayconfuzita.citiesapi.cities.service;
 
-
 import com.gitbub.mayconfuzita.citiesapi.cities.entities.City;
 import com.gitbub.mayconfuzita.citiesapi.cities.repositories.CityRepository;
 import org.slf4j.Logger;
@@ -20,7 +19,6 @@ public class DistanceService {
   Logger log = LoggerFactory.getLogger(DistanceService.class);
 
   public DistanceService(final CityRepository cityRepository) {
-
     this.cityRepository = cityRepository;
   }
 
@@ -31,7 +29,6 @@ public class DistanceService {
    * @param city2
    * @param unit
    * @return
-  */
 
   public Double distanceUsingMath(final Long city1, final Long city2, final EarthRadius unit) {
     log.info("distanceUsingMath({}, {}, {})", city1, city2, unit);
@@ -42,8 +39,7 @@ public class DistanceService {
 
     return doCalculation(location1[0], location1[1], location2[0], location2[1], unit);
   }
-
-
+ */
   /**
    * 2nd option
    *
